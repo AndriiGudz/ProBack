@@ -4,18 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ProBack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_01/MyThread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_01/MyThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_01/demo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_01/demo/MyThread.java" afterDir="false" />
+    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Consultation 01">
+      <change afterPath="$PROJECT_DIR$/src/homeworks_01/Task_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_02/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_02/staff/administration/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_02/staff/administration/ProdactionChief.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_02/staff/administration/SalesChief.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_02/staff/specialists/prodaction/MachineOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_02/staff/specialists/prodaction/Storekeeper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_02/staff/specialists/sales/Merchandiser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_02/staff/specialists/sales/SalesManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProBack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProBack.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,14 +44,36 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Consult_1.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Task_1.executor": "Run",
+    "Application.Task_2.executor": "Run",
+    "Application.lessons_02.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/JavaLib/libs",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.tabs"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.lessons_02.Main">
+    <configuration name="Consult_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consultation_01.Consult_1" />
+      <module name="ProBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="consultation_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lessons_01.demo.Main" />
       <module name="ProBack" />
@@ -64,8 +87,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks_01.Task_1" />
+      <module name="ProBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworks_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks_01.Task_2" />
+      <module name="ProBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworks_01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lessons_02.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons_02.Main" />
+      <module name="ProBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lessons_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lessons_02.Main" />
+        <item itemvalue="Application.Task_2" />
+        <item itemvalue="Application.Consult_1" />
+        <item itemvalue="Application.Task_1" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -74,6 +140,7 @@
     <attachedChunks>
       <set>
         <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
       </set>
     </attachedChunks>
   </component>
@@ -86,6 +153,37 @@
       <option name="presentableId" value="Default" />
       <updated>1719246573659</updated>
     </task>
+    <task id="LOCAL-00001" summary="Lessons 01">
+      <option name="closed" value="true" />
+      <created>1719256212881</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719256212881</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Homeworks 01">
+      <option name="closed" value="true" />
+      <created>1719329945977</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719329945977</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Consultation 01">
+      <option name="closed" value="true" />
+      <created>1719329964144</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719329964144</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lessons 01" />
+    <MESSAGE value="Homeworks 01" />
+    <MESSAGE value="Consultation 01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consultation 01" />
   </component>
 </project>
