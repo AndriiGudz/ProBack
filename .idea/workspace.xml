@@ -4,16 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons 02">
-      <change afterPath="$PROJECT_DIR$/src/homeworks_02/mainTask1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks_02/mainTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks_02/nation/countrysLeadership/HeadOfParliament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks_02/nation/countrysLeadership/President.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks_02/nation/countrysLeadership/PrimeMinister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks_02/nation/executivePower/MinisterOfForeignAffairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks_02/nation/executivePower/MinisterOfTheInterior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks_02/nation/parlament/Deputy.java" afterDir="false" />
+    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Homeworks 02, Task 1 update">
+      <change afterPath="$PROJECT_DIR$/src/homeworks_02/nation/config/CountryConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks_02/mainTask2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_02/mainTask2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks_02/nation/countrysLeadership/HeadOfParliament.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_02/nation/countrysLeadership/HeadOfParliament.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks_02/nation/countrysLeadership/President.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_02/nation/countrysLeadership/President.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homeworks_02/nation/countrysLeadership/PrimeMinister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_02/nation/countrysLeadership/PrimeMinister.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +44,7 @@
     "Application.Task_2.executor": "Run",
     "Application.lessons_02.Main.executor": "Run",
     "Application.mainTask1.executor": "Run",
+    "Application.mainTask2.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -63,26 +61,13 @@
       <recent name="homeworks_02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.mainTask1">
+  <component name="RunManager" selected="Application.mainTask2">
     <configuration name="Consult_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="consultation_01.Consult_1" />
       <module name="ProBack" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="consultation_01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworks_01.Task_1" />
-      <module name="ProBack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homeworks_01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,13 +114,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mainTask2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homeworks_02.mainTask2" />
+      <module name="ProBack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homeworks_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.mainTask2" />
         <item itemvalue="Application.mainTask1" />
         <item itemvalue="Application.lessons_02.Main" />
         <item itemvalue="Application.Task_2" />
         <item itemvalue="Application.Consult_1" />
-        <item itemvalue="Application.Task_1" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719344113760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Homeworks 02, Task 1">
+      <option name="closed" value="true" />
+      <created>1719412850766</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719412850766</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Homeworks 02, Task 1 update">
+      <option name="closed" value="true" />
+      <created>1719412969124</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719412969124</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,6 +210,8 @@
     <MESSAGE value="Homeworks 01" />
     <MESSAGE value="Consultation 01" />
     <MESSAGE value="Lessons 02" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lessons 02" />
+    <MESSAGE value="Homeworks 02, Task 1" />
+    <MESSAGE value="Homeworks 02, Task 1 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homeworks 02, Task 1 update" />
   </component>
 </project>
