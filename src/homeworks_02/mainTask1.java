@@ -32,5 +32,6 @@ public class mainTask1 {
         president.setPrimeMinister(primeMinister);
 
         president.manageCountry();
+
     }
 }
