@@ -2,6 +2,7 @@ package lessons_03.app.service;
 
 import lessons_03.app.model.Product;
 import lessons_03.app.repository.ProductRepository;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -11,7 +12,7 @@ public class ProductServiceImpl implements ProductService {
 
     private final ProductRepository repository; // зависимость внедряем из вне - Dependency injection
 
-    public ProductServiceImpl(ProductRepository repository) {
+    public ProductServiceImpl(@Qualifier("getProductRepository") ProductRepository repository) {
         this.repository = repository;
     }
 

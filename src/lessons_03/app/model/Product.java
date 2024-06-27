@@ -9,11 +9,11 @@ public class Product {
     private BigDecimal price;
     private String artikle;
 
-    public Product(Long id, String title, BigDecimal price, String artikle) {
+    public Product(Long id, String title, BigDecimal price) {
         this.id = id;
         this.title = title;
         this.price = price;
-        this.artikle = artikle;
+//        this.artikle = artikle;
     }
 
     public Long getId() {

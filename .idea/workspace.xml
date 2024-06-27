@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons 03">
-      <change afterPath="$PROJECT_DIR$/src/consultation_02/Consult_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/consultation_02/Person.java" afterDir="false" />
+    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Consultation 2">
+      <change afterPath="$PROJECT_DIR$/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_03/app/config/AppConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_03/app/repository/ProductRepositoryListImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_04/exampleMaven/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_04/exampleMaven/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_04/exampleMaven/src/main/java/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProBack.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProBack.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons_03/app/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons_03/app/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons_03/app/repository/ProductRepositoryMapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons_03/app/repository/ProductRepositoryMapImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lessons_03/app/service/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lessons_03/app/service/ProductServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,20 +56,27 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/JavaLib/libs",
-    "project.structure.last.edited": "Modules",
+    "last_opened_file_path": "C:/ProBack/src/lessons_04/code",
+    "project.structure.last.edited": "SDKs",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.tabs"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\ProBack\resources" />
+      <recent name="C:\ProBack\src" />
+      <recent name="C:\ProBack\src\lessons_03" />
+      <recent name="C:\ProBack\src\lessons_03\app" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="homeworks_02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Consult_2">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Consult_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="consultation_02.Consult_2" />
       <module name="ProBack" />
@@ -128,8 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Consult_2" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Consult_2" />
         <item itemvalue="Application.mainTask2" />
         <item itemvalue="Application.mainTask1" />
         <item itemvalue="Application.lessons_02.Main" />
@@ -217,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719428977918</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Consultation 2">
+      <option name="closed" value="true" />
+      <created>1719501165683</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1719501165683</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -229,6 +253,7 @@
     <MESSAGE value="Homeworks 02, Task 1 update" />
     <MESSAGE value="Homeworks 02, Task 2" />
     <MESSAGE value="Lessons 03" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lessons 03" />
+    <MESSAGE value="Consultation 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Consultation 2" />
   </component>
 </project>
