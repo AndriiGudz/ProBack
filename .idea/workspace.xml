@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Homeworks 02, Task 2">
-      <change afterPath="$PROJECT_DIR$/src/lessons_03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_03/app/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_03/app/model/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_03/app/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_03/app/repository/ProductRepositoryMapImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_03/app/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lessons_03/app/service/ProductServiceImpl.java" afterDir="false" />
+    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons 03">
+      <change afterPath="$PROJECT_DIR$/src/consultation_02/Consult_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/consultation_02/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Consult_1.executor": "Run",
+    "Application.Consult_2.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Task_1.executor": "Run",
     "Application.Task_2.executor": "Run",
@@ -64,13 +60,13 @@
       <recent name="homeworks_02" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lessons_03.Main" />
+  <component name="RunManager" selected="Application.Consult_2">
+    <configuration name="Consult_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="consultation_02.Consult_2" />
       <module name="ProBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lessons_03.*" />
+          <option name="PATTERN" value="consultation_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homeworks_01.Task_2" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lessons_03.Main" />
       <module name="ProBack" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homeworks_01.*" />
+          <option name="PATTERN" value="lessons_03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Consult_2" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.mainTask2" />
         <item itemvalue="Application.mainTask1" />
         <item itemvalue="Application.lessons_02.Main" />
-        <item itemvalue="Application.Task_2" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719414351851</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Lessons 03">
+      <option name="closed" value="true" />
+      <created>1719428977918</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1719428977918</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -224,6 +228,7 @@
     <MESSAGE value="Homeworks 02, Task 1" />
     <MESSAGE value="Homeworks 02, Task 1 update" />
     <MESSAGE value="Homeworks 02, Task 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homeworks 02, Task 2" />
+    <MESSAGE value="Lessons 03" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lessons 03" />
   </component>
 </project>
