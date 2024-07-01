@@ -4,10 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons &amp; Homeworks 5">
-      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Homeworks 4 Books">
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/controllers/MyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/entities/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/FirstRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/MyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/SecondRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/services/MyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/Main$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/controllers/MyController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/entities/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/repositories/FirstRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/repositories/MyRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/repositories/SecondRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/services/MyService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_05/test_bd/target/classes/DatabaseConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_05/test_bd/target/classes/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lessons_05/test_bd/target/classes/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +59,7 @@
     "Application.Main.executor": "Run",
     "Application.Task_1.executor": "Run",
     "Application.Task_2.executor": "Run",
+    "Application.app.Main.executor": "Run",
     "Application.lessons_02.Main.executor": "Run",
     "Application.mainTask1.executor": "Run",
     "Application.mainTask2.executor": "Run",
@@ -243,7 +261,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719847149833</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Homeworks 4 Books">
+      <option name="closed" value="true" />
+      <created>1719847997344</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719847997344</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,6 +284,7 @@
     <MESSAGE value="Consultation 2" />
     <MESSAGE value="Lessons 4" />
     <MESSAGE value="Lessons &amp; Homeworks 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lessons &amp; Homeworks 5" />
+    <MESSAGE value="Homeworks 4 Books" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homeworks 4 Books" />
   </component>
 </project>
