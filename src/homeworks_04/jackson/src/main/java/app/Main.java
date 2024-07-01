@@ -16,6 +16,12 @@ public class Main {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("app");
         MyController controller = context.getBean(MyController.class);
+        System.out.println(controller.findAllBooks());
+
+        Book savedBook = controller.save(new Book(null, "Voina i mir", "Tolcstoy", 1970));
+
+        System.out.println(savedBook);
+        System.out.println(controller.findAllBooks());
 
 
         ObjectMapper mapper = new ObjectMapper();

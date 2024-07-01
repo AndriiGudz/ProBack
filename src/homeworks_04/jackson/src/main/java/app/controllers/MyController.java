@@ -16,4 +16,8 @@ public class MyController {
     public List<Book> findAllBooks(){
         return myService.findAll();
     }
+
+    public Book save(Book book) {
+        return myService.save(book);
+    }
 }

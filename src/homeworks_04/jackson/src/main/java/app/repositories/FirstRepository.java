@@ -10,10 +10,15 @@ import java.util.List;
 @RequiredArgsConstructor
 public class FirstRepository implements MyRepository{
 
-    private final List<Book> books = List.of(new Book("Книга 1", "Автор 1", 2000),
-            new Book("Книга 2", "Автор 2", 1900),
-            new Book("Книга 3", "Автор 1", 1860)
+    private final List<Book> books = List.of(new Book(1L, "Книга 1", "Автор 1", 2000),
+            new Book(2L, "Книга 2", "Автор 2", 1900),
+            new Book(3L, "Книга 3", "Автор 1", 1860)
     );
+
+    @Override
+    public Book save(Book book) {
+        return null;
+    }
 
     @Override
     public List<Book> findAll() {

@@ -13,10 +13,15 @@ import java.util.Map;
 public class SecondRepository implements MyRepository{
 
     private final Map<Long, Book> books = Map.of(
-            1L, new Book("Книга Map1", "Автор 5", 1902),
-            2L, new Book("Книга Map2", "Автор 7", 1200),
-            3L, new Book("Книга Map3", "Автор 1", 1802)
+            1L, new Book(1L, "Книга Map1", "Автор 5", 1902),
+            2L, new Book(2L, "Книга Map2", "Автор 7", 1200),
+            3L, new Book(3L, "Книга Map3", "Автор 1", 1802)
     );
+
+    @Override
+    public Book save(Book book) {
+        return null;
+    }
 
     @Override
     public List<Book> findAll() {
