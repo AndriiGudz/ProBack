@@ -1,10 +1,12 @@
 package app.repositories;
 
+import app.configuration.HibernateUtil;
 import app.entities.Book;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.EntityTransaction;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -13,12 +15,14 @@ import java.util.List;
 public class HibernateRepository implements MyRepository{
 
     private final EntityManager entityManager;
+    private final HibernateUtil hibernateUtil;
 
-    private HibernateRepository() {
-         entityManager = new Configuration()
-                .configure("hibernate.cfg.xml")
-                .buildSessionFactory()
-                .createEntityManager();
+    @Autowired
+    private HibernateRepository(HibernateUtil hibernateUtil) {
+        this.hibernateUtil = hibernateUtil;
+         entityManager = hibernateUtil
+                 .getSessionFactory()
+                 .createEntityManager();
     }
 
 

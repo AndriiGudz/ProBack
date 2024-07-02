@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ProBack.iml" filepath="$PROJECT_DIR$/ProBack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/homeworks_04/jackson/jackson.iml" filepath="$PROJECT_DIR$/src/homeworks_04/jackson/jackson.iml" />
     </modules>
   </component>
 </project>
