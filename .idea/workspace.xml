@@ -4,54 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons 06">
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/jackson.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/java/app/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/java/app/configuration/HibernateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/java/app/controllers/MyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/java/app/entities/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/java/app/repositories/FirstRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/java/app/repositories/HibernateRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/java/app/repositories/JdbcRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/java/app/repositories/MyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/java/app/repositories/SecondRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/java/app/services/MyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/Book.hbm.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/app/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/app/controllers/MyController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/app/entities/Book.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/app/repositories/FirstRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/app/repositories/HibernateRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/app/repositories/JdbcRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/app/repositories/MyRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/app/repositories/SecondRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/app/services/MyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_07/jackson/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/jackson.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/resources/Book.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons 07">
+      <change afterPath="$PROJECT_DIR$/lessons_08/demo/src/main/resources/static/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/controllers/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/controllers/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/FirstRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/FirstRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/HibernateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/HibernateRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/JdbcRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/JdbcRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/MyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/MyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/SecondRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/repositories/SecondRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/services/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/java/app/services/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/Main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/Main$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/controllers/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/controllers/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/repositories/FirstRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/repositories/FirstRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/repositories/MyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/repositories/MyRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/repositories/SecondRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/repositories/SecondRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/services/MyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/app/services/MyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/homeworks_04/jackson/target/classes/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,18 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "AndriiGudz"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AndriiGudz&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:AndriiGudz/ProBack.git",
-    "accountId": "0b69a270-4cfa-4144-87cc-38a60c3b6d80"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:AndriiGudz/ProBack.git&quot;,
+    &quot;accountId&quot;: &quot;0b69a270-4cfa-4144-87cc-38a60c3b6d80&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -109,7 +64,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "corretto-17 (3)",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/ProBack/lessons_07/jackson",
+    "last_opened_file_path": "C:/ProBack",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -227,7 +182,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1719246573659</updated>
-      <workItem from="1719931262183" duration="13683000" />
+      <workItem from="1719931262183" duration="16023000" />
+      <workItem from="1720031956684" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="Lessons 01">
       <option name="closed" value="true" />
@@ -341,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719860927681</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Lessons 07">
+      <option name="closed" value="true" />
+      <created>1719946974363</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1719946974363</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,6 +336,7 @@
     <MESSAGE value="Lessons &amp; Homeworks 5" />
     <MESSAGE value="Homeworks 4 Books" />
     <MESSAGE value="Lessons 06" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lessons 06" />
+    <MESSAGE value="Lessons 07" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lessons 07" />
   </component>
 </project>
