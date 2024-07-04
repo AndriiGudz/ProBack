@@ -4,18 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons 08">
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/src/main/java/de/ait/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/src/main/java/de/ait/demo/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/src/main/java/de/ait/demo/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework_08/demoProjeckt/src/test/java/de/ait/demo/DemoApplicationTests.java" afterDir="false" />
+    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Homework 08">
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/src/main/java/de/ait/demo1/Demo1Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/src/main/java/de/ait/demo1/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/src/main/java/de/ait/demo1/controllers/UserRestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/src/main/java/de/ait/demo1/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/src/main/resources/templates/user_list_view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/demo1/src/test/java/de/ait/demo1/Demo1ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -197,7 +199,7 @@
       <updated>1719246573659</updated>
       <workItem from="1719931262183" duration="16023000" />
       <workItem from="1720031956684" duration="764000" />
-      <workItem from="1720097322786" duration="1554000" />
+      <workItem from="1720097322786" duration="4608000" />
     </task>
     <task id="LOCAL-00001" summary="Lessons 01">
       <option name="closed" value="true" />
@@ -327,7 +329,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720033612801</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Homework 08">
+      <option name="closed" value="true" />
+      <created>1720098988468</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1720098988468</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -361,6 +371,7 @@
     <MESSAGE value="Lessons 06" />
     <MESSAGE value="Lessons 07" />
     <MESSAGE value="Lessons 08" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lessons 08" />
+    <MESSAGE value="Homework 08" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 08" />
   </component>
 </project>
