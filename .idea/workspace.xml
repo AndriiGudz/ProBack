@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Homework 08">
+    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons 09">
       <change afterPath="$PROJECT_DIR$/lessons_09/demo1/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lessons_09/demo1/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lessons_09/demo1/mvnw" afterDir="false" />
@@ -17,8 +17,11 @@
       <change afterPath="$PROJECT_DIR$/lessons_09/demo1/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lessons_09/demo1/src/main/resources/templates/user_list_view.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lessons_09/demo1/src/test/java/de/ait/demo1/Demo1ApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/src/main/resources/db/changelog/v.0.1.1/changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/src/main/resources/db/changelog/v.0.1.1/create-table-customer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons_09/shop41/src/main/resources/db/changelog/changelog-master.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lessons_09/shop41/src/main/resources/db/changelog/changelog-master.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +45,12 @@
     &quot;assignee&quot;: &quot;AndriiGudz&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;git@github.com:AndriiGudz/ProBack.git&quot;,
-    &quot;accountId&quot;: &quot;0b69a270-4cfa-4144-87cc-38a60c3b6d80&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/AndriiGudz/ProBack.git",
+    "accountId": "0b69a270-4cfa-4144-87cc-38a60c3b6d80"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -88,7 +91,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "settings.sync",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -199,7 +202,8 @@
       <updated>1719246573659</updated>
       <workItem from="1719931262183" duration="16023000" />
       <workItem from="1720031956684" duration="764000" />
-      <workItem from="1720097322786" duration="4608000" />
+      <workItem from="1720097322786" duration="6210000" />
+      <workItem from="1720187191869" duration="2825000" />
     </task>
     <task id="LOCAL-00001" summary="Lessons 01">
       <option name="closed" value="true" />
@@ -337,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720098988468</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Lessons 09">
+      <option name="closed" value="true" />
+      <created>1720122388306</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1720122388306</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +368,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/lessons_09/demo1" />
+    </ignored-roots>
     <MESSAGE value="Lessons 01" />
     <MESSAGE value="Homeworks 01" />
     <MESSAGE value="Consultation 01" />
@@ -372,6 +387,7 @@
     <MESSAGE value="Lessons 07" />
     <MESSAGE value="Lessons 08" />
     <MESSAGE value="Homework 08" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 08" />
+    <MESSAGE value="Lessons 09" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lessons 09" />
   </component>
 </project>
