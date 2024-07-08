@@ -1,0 +1,28 @@
+### GET /products
+GET http://localhost:8080/products
+
+### GET /products?active=true
+GET http://{{server}}:{{port}}/products?active=true
+
+### GET /products?active=true
+GET http://localhost:8080/products?active=true
+
+### POST /products
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+"title": "Kukumber",
+"price": 1.99,
+"active": true
+}
+
+### PUT /products
+PUT http://localhost:8080/products/7
+Content-Type: application/json
+
+{
+  "title": "Kukumber555",
+  "price": 1.99,
+  "active": false
+}
