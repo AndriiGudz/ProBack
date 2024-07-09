@@ -12,17 +12,17 @@ POST http://localhost:8080/products
 Content-Type: application/json
 
 {
-"title": "Kukumber",
-"price": 1.99,
-"active": true
+"title": "<Milk 3.8>",
+"price": 1.96,
+"activ": false
 }
 
 ### PUT /products
-PUT http://localhost:8080/products/7
+PUT http://localhost:8080/products/2
 Content-Type: application/json
 
 {
-  "title": "Kukumber555",
-  "price": 1.99,
-  "active": false
+  "title": "Milk 1.5",
+  "price": 1.06,
+  "activ": true
 }
