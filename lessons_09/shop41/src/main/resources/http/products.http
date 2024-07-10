@@ -26,3 +26,32 @@ Content-Type: application/json
   "price": 1.06,
   "activ": true
 }
+
+### GET /customers
+GET http://localhost:8080/customers
+
+### GET /customers/{id}
+GET http://localhost:8080/customers/2
+
+### POST /customers
+POST http://localhost:8080/customers
+Content-Type: application/json
+
+{
+  "name": "Sergey",
+  "email": "sergey@email.com",
+  "phone": 123003449
+}
+
+### PUT /customers
+PUT http://localhost:8080/customers/3
+Content-Type: application/json
+
+{
+  "name": "Anna S",
+  "email": "anna@email.com",
+  "phone": 123005616
+}
+
+### DELETE /customers
+DELETE http://localhost:8080/customers/1

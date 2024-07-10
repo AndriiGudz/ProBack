@@ -5,14 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons 10">
-      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/exceptions/ProductNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/product/repository/ProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/product/service/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/product/service/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/customer/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/customer/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/resources/db/changelog/v.0.1.2/changelog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/resources/db/changelog/v.0.1.2/rename-table-customer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons_09/shop41/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/lessons_09/shop41/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/product/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/product/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/product/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/customer/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/customer/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/customer/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/java/de/ait/shop41/customer/entity/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/resources/http/products.http" beforeDir="false" afterPath="$PROJECT_DIR$/lessons_09/shop41/lessons_09/shop41/src/main/resources/http/products.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/lessons_09/shop41" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -71,7 +72,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "<unknown>",
     "jdk.selected.JAVA_MODULE": "corretto-17 (3)",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/ProBack/homework_08/demoProjeckt/pom.xml",
@@ -195,7 +196,7 @@
       <workItem from="1719931262183" duration="16023000" />
       <workItem from="1720031956684" duration="764000" />
       <workItem from="1720097322786" duration="6210000" />
-      <workItem from="1720187191869" duration="8345000" />
+      <workItem from="1720187191869" duration="12732000" />
     </task>
     <task id="LOCAL-00001" summary="Lessons 01">
       <option name="closed" value="true" />
