@@ -1,7 +1,12 @@
 package de.ait.shop41.product.controller;
 
+import de.ait.shop41.product.dto.ProductRequestDTO;
+import de.ait.shop41.product.dto.ProductResponseDTO;
 import de.ait.shop41.product.entity.Product;
 import de.ait.shop41.product.service.ProductService;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +20,7 @@ import java.util.stream.Collectors;
 @RestController
 @RequiredArgsConstructor // Spring lombok генерирует конструктор
 @RequestMapping("/products")
+@Tag(name = "Product controller", description = "Controller for various operation with Products")
 public class ProductController {
 
     private final ProductService service;
@@ -54,8 +60,13 @@ public class ProductController {
 //    required = false указывает что параметр не обязательный
 //    "/products?active=false"
 //    "/products?active=false&sortType=Title" - пример использования нескольких параметров в куэри параметре
+    @Operation(summary = "Get list of products", description = "Get all products or get products by aktive value")
     @GetMapping
-    public List<Product> getProducts(@RequestParam(name = "active", required = false, defaultValue = "all") String active) {
+    public List<ProductResponseDTO> getProducts(
+            @RequestParam(name = "active", required = false, defaultValue = "all")
+            @Parameter(description = "For getting all active product should be true and should be false for non active products",
+            example = "true")
+            String active) {
         if (active.equals("false")) {
             return service.getAllNotAktiveProducts();
         } else if (active.equals("true")) {
@@ -66,9 +77,9 @@ public class ProductController {
 
 //    добавление записи - post запрос
     @PostMapping
-    public ResponseEntity<Product> createNewProduct(@RequestBody Product product) {
-        Product saved = service.save(product);
-        return new ResponseEntity<>(product, HttpStatus.CREATED);
+    public ResponseEntity<ProductResponseDTO> createNewProduct(@RequestBody ProductRequestDTO product) {
+        ProductResponseDTO saved = service.save(product);
+        return new ResponseEntity<>(saved, HttpStatus.CREATED);
     }
 
     //    метод для изменения продукта

@@ -5,7 +5,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
 public interface CustomerService {
     Customer createCustomer(Customer customer);
     Customer updateCustomer(Long id, Customer customer);
