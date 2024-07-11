@@ -1,5 +1,6 @@
 package de.ait.shop41.customer.entity;
 
+import de.ait.shop41.cart.entity.Cart;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -21,4 +22,7 @@ public class Customer {
     private String email;
     @Column(name = "phone")
     private int phone;
+
+    @OneToOne(mappedBy = "customer")
+    private Cart cart;
 }

@@ -17,7 +17,7 @@ public class ProductServiceImpl implements ProductService{
     private final ProductRepository repository;
 
     @Override
-    public ProductResponseDTO save(ProductRequestDTO product) {
+    public ProductResponseDTO save(ProductRequestDTO productDTO) {
         Product product = ProductRequestDTO.of(productDTO);
         return ProductResponseDTO.of(repository.save(product));
     }
