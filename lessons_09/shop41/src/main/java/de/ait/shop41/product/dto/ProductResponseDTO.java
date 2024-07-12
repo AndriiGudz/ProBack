@@ -14,6 +14,9 @@ import java.util.List;
 @NoArgsConstructor
 public class ProductResponseDTO {
 //    Исходящаяя, из сущности получаю DTO
+//    Этот класс предназначен для отправки данных клиенту.
+//    Он используется для представления продукта в ответе на запрос.
+//    ProductResponseDTO используется для отправки данных клиенту в ответ на запрос.
 
     @Schema(description = "product unique identifier", example = "100")
     private Long id;

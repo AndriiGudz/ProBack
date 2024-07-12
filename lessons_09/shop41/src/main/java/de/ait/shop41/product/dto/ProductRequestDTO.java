@@ -17,6 +17,9 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class ProductRequestDTO {
     //    Приходит на создание нового товара
+//    Этот класс предназначен для получения данных при создании или обновлении продукта.
+//    Он используется, когда клиент отправляет запрос на создание нового продукта.
+//    ProductRequestDTO используется для получения данных от клиента при создании или обновлении продукта.
 
     @Schema(description = "product title", example = "Milk")
     private String title;
