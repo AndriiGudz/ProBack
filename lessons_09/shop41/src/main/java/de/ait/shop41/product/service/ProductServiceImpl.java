@@ -23,7 +23,12 @@ public class ProductServiceImpl implements ProductService{
     }
 
     @Override
-    public Product getById(Long id) {
+    public Product getById(Long id) { // Todo return
+        return repository.findById(id).orElseThrow(() -> new ProductNotFoundException());
+    }
+
+    @Override
+    public Product getEntityById(Long id) {
         return repository.findById(id).orElseThrow(() -> new ProductNotFoundException());
     }
 

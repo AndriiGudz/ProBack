@@ -32,6 +32,7 @@ public class Customer {
     @Schema(description = "Phone number of the customer", example = "1234567890")
     private int phone;
 
-    @OneToOne(mappedBy = "customer")
+    @OneToOne(mappedBy = "customer", cascade = CascadeType.ALL)
+//    параметр к анатации cascade = CascadeType.ALL - отвечает за создания или удаление Cart на уровне связи
     private Cart cart;
 }

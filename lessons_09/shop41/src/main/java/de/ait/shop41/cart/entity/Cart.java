@@ -33,4 +33,17 @@ public class Cart {
                 inverseJoinColumns = @JoinColumn(name = "product_id"))
     List<Product> products;
 
+    public void addProduct(Product product) {
+        if (product.isActiv()) {
+            products.add(product);
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Cart{" +
+                "id=" + id +
+                ", customer=" + customer +
+                '}';
+    }
 }

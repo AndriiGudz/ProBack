@@ -48,7 +48,7 @@ PUT http://localhost:8080/customers/3
 Content-Type: application/json
 
 {
-  "name": "Anna S",
+  "name": "Anna Storm",
   "email": "anna@email.com",
   "phone": 123005616
 }

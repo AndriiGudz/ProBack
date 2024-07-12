@@ -11,6 +11,7 @@ import java.util.List;
 public interface ProductService {
     ProductResponseDTO save(ProductRequestDTO product);
     Product getById(Long id);
+    Product getEntityById(Long id);
     Product update(Long id, Product product);
     List<ProductResponseDTO> getAllProducts();
     List<ProductResponseDTO> getAllAktiveProducts();
