@@ -2,7 +2,6 @@ package de.ait.shop41.customer.controller;
 
 import de.ait.shop41.customer.dto.CustomerRequestDTO;
 import de.ait.shop41.customer.dto.CustomerResponseDTO;
-import de.ait.shop41.customer.entity.Customer;
 import de.ait.shop41.customer.service.CustomerService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

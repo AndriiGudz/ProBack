@@ -11,6 +11,7 @@ import lombok.RequiredArgsConstructor;
 import org.modelmapper.ModelMapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
@@ -75,7 +76,9 @@ public class CustomerServiceImpl implements CustomerService{
         }
     }
 
+    // Ошибка в методе Todo
     @Override
+    @Transactional
     public void addProductToCustomerCart(Long customerId, Long productId) {
         Customer customer = customerRepository
                 .findById(customerId)
