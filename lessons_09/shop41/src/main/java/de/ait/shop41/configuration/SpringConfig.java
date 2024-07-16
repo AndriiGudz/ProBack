@@ -29,9 +29,12 @@ public class SpringConfig {
                 .authorizeHttpRequests(
                         auth -> auth.requestMatchers(HttpMethod.GET, "products").permitAll()
                                 .requestMatchers(HttpMethod.GET, "products/{$id}").hasAnyRole("ADMIN", "USER")
+                                .requestMatchers(HttpMethod.PUT, "customers/**").anonymous()//.hasAnyRole("ADMIN", "USER")
                                 .requestMatchers(HttpMethod.POST, "products/{$id}").hasRole("ADMIN")
-                                .anyRequest().authenticated())
+                                .anyRequest().permitAll()) //.authenticated())
                 .httpBasic(Customizer.withDefaults());
+//        http.authorizeRequests().anyRequest().permitAll().and().csrf(AbstractHttpConfigurer::disable);
+
         return http.build();
 
     }
