@@ -1,5 +1,7 @@
 package de.ait.shop41.product.controller;
 
+import de.ait.shop41.exception_handling.ApiExceptionInfo;
+import de.ait.shop41.exception_handling.exceptions.ProductNotFoundException;
 import de.ait.shop41.product.dto.ProductRequestDTO;
 import de.ait.shop41.product.dto.ProductResponseDTO;
 import de.ait.shop41.product.entity.Product;
@@ -7,15 +9,13 @@ import de.ait.shop41.product.service.ProductService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.tags.Tag;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequiredArgsConstructor // Spring lombok генерирует конструктор
@@ -77,7 +77,7 @@ public class ProductController {
 
 //    добавление записи - post запрос
     @PostMapping
-    public ResponseEntity<ProductResponseDTO> createNewProduct(@RequestBody ProductRequestDTO product) {
+    public ResponseEntity<ProductResponseDTO> createNewProduct(@Valid @RequestBody ProductRequestDTO product) {
         ProductResponseDTO saved = service.save(product);
         return new ResponseEntity<>(saved, HttpStatus.CREATED);
     }
@@ -88,4 +88,11 @@ public class ProductController {
         Product updated = service.update(id, product);
         return updated;
     }
+
+    @ExceptionHandler(ProductNotFoundException.class)
+    // для возрата объекта / ошибки на фронт
+    public ResponseEntity<ApiExceptionInfo> productNotFoundHandler(Exception e) {
+        return new ResponseEntity<ApiExceptionInfo>(new ApiExceptionInfo(e.getMessage()), HttpStatus.NOT_FOUND);
+    }
+
 }

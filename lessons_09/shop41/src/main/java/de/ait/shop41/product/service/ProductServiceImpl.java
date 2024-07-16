@@ -1,6 +1,6 @@
 package de.ait.shop41.product.service;
 
-import de.ait.shop41.exceptions.ProductNotFoundException;
+import de.ait.shop41.exception_handling.exceptions.ProductNotFoundException;
 import de.ait.shop41.product.dto.ProductRequestDTO;
 import de.ait.shop41.product.dto.ProductResponseDTO;
 import de.ait.shop41.product.entity.Product;
@@ -24,12 +24,12 @@ public class ProductServiceImpl implements ProductService{
 
     @Override
     public Product getById(Long id) { // Todo return
-        return repository.findById(id).orElseThrow(() -> new ProductNotFoundException());
+        return repository.findById(id).orElseThrow(() -> new ProductNotFoundException(String.format("Product %d not found", id)));
     }
 
     @Override
     public Product getEntityById(Long id) {
-        return repository.findById(id).orElseThrow(() -> new ProductNotFoundException());
+        return repository.findById(id).orElseThrow(() -> new ProductNotFoundException(String.format("Product %d not found", id)));
     }
 
     @Override

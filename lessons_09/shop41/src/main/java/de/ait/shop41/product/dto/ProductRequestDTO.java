@@ -6,6 +6,7 @@ import jakarta.persistence.Column;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
+import jakarta.validation.constraints.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -21,9 +22,17 @@ public class ProductRequestDTO {
 //    Он используется, когда клиент отправляет запрос на создание нового продукта.
 //    ProductRequestDTO используется для получения данных от клиента при создании или обновлении продукта.
 
+    @NotNull(message = "product title should be not null")
+    // валидация полей
+    @NotBlank(message = "product title should be not blank")
+    @Pattern(regexp = "[A-Z][a-z]{2,}", message = "not valid pattern")
+    // Pattern - помагает создавать регулярные выражения для валидации
+//    @Email - анатация для валидации email
     @Schema(description = "product title", example = "Milk")
     private String title;
 
+    @DecimalMin(value = "0.01")
+//    @DecimalMin(value = "0.01") - анатация для валидации минимального размера цены
     @Schema(description = "product price", example = "9.99")
     private BigDecimal price;
 
