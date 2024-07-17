@@ -6,6 +6,8 @@ import de.ait.shop41.product.dto.ProductResponseDTO;
 import de.ait.shop41.product.entity.Product;
 import de.ait.shop41.product.repository.ProductRepository;
 import lombok.RequiredArgsConstructor;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -16,6 +18,9 @@ public class ProductServiceImpl implements ProductService{
 
     private final ProductRepository repository;
 
+    // объект логирования
+    private final Logger logger = LogManager.getLogger(ProductServiceImpl.class);
+
     @Override
     public ProductResponseDTO save(ProductRequestDTO productDTO) {
         Product product = ProductRequestDTO.of(productDTO);
@@ -24,6 +29,10 @@ public class ProductServiceImpl implements ProductService{
 
     @Override
     public Product getById(Long id) { // Todo return
+        logger.error("PRODUCT, GET, AUTH get by id start with {}", id);
+        logger.warn("get by id start with {}", id);
+        logger.info("get by id start with {}", id);
+
         return repository.findById(id).orElseThrow(() -> new ProductNotFoundException(String.format("Product %d not found", id)));
     }
 

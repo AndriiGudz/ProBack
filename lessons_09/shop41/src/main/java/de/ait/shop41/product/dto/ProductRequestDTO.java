@@ -22,9 +22,9 @@ public class ProductRequestDTO {
 //    Он используется, когда клиент отправляет запрос на создание нового продукта.
 //    ProductRequestDTO используется для получения данных от клиента при создании или обновлении продукта.
 
-    @NotNull(message = "product title should be not null")
+    @NotNull(message = "product title should be not null") // не null
     // валидация полей
-    @NotBlank(message = "product title should be not blank")
+    @NotBlank(message = "product title should be not blank") // не пустая строка
     @Pattern(regexp = "[A-Z][a-z]{2,}", message = "not valid pattern")
     // Pattern - помагает создавать регулярные выражения для валидации
 //    @Email - анатация для валидации email

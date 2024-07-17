@@ -89,6 +89,7 @@ public class ProductController {
         return updated;
     }
 
+    // Обработчик валидации на уровне контролера
     @ExceptionHandler(ProductNotFoundException.class)
     // для возрата объекта / ошибки на фронт
     public ResponseEntity<ApiExceptionInfo> productNotFoundHandler(Exception e) {
