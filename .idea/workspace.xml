@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons 10" />
+    <list default="true" id="d44a12a7-7b92-4643-82f5-d1ee9b85503a" name="Changes" comment="Lessons 10">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,12 +29,12 @@
     &quot;assignee&quot;: &quot;AndriiGudz&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:AndriiGudz/ProBack.git",
-    "accountId": "0b69a270-4cfa-4144-87cc-38a60c3b6d80"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:AndriiGudz/ProBack.git&quot;,
+    &quot;accountId&quot;: &quot;0b69a270-4cfa-4144-87cc-38a60c3b6d80&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -187,7 +189,8 @@
       <workItem from="1720097322786" duration="6210000" />
       <workItem from="1720187191869" duration="13432000" />
       <workItem from="1720707390011" duration="711000" />
-      <workItem from="1720795898970" duration="643000" />
+      <workItem from="1720795898970" duration="644000" />
+      <workItem from="1721310359439" duration="744000" />
     </task>
     <task id="LOCAL-00001" summary="Lessons 01">
       <option name="closed" value="true" />

@@ -76,7 +76,7 @@ public class CustomerServiceImpl implements CustomerService{
         }
     }
 
-    // Ошибка в методе Todo
+    // Метод работает
     @Override
     @Transactional
     public void addProductToCustomerCart(Long customerId, Long productId) {

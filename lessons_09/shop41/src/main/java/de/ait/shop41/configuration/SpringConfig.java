@@ -22,21 +22,35 @@ public class SpringConfig {
         return new BCryptPasswordEncoder();
     }
 
+    @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http
                 .csrf(AbstractHttpConfigurer::disable)
                 .sessionManagement(x -> x.sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED))
                 .authorizeHttpRequests(
-                        auth -> auth.requestMatchers(HttpMethod.GET, "products").permitAll()
-                                .requestMatchers(HttpMethod.GET, "products/{$id}").hasAnyRole("ADMIN", "USER")
-                                .requestMatchers(HttpMethod.PUT, "customers/**").anonymous()//.hasAnyRole("ADMIN", "USER")
-                                .requestMatchers(HttpMethod.POST, "products/{$id}").hasRole("ADMIN")
-                                .anyRequest().permitAll()) //.authenticated())
+                        auth -> auth.anyRequest().permitAll())
                 .httpBasic(Customizer.withDefaults());
-//        http.authorizeRequests().anyRequest().permitAll().and().csrf(AbstractHttpConfigurer::disable);
 
         return http.build();
 
     }
+
+//@Bean
+//    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+//        http
+//                .csrf(AbstractHttpConfigurer::disable)
+//                .sessionManagement(x -> x.sessionCreationPolicy(SessionCreationPolicy.IF_REQUIRED))
+//                .authorizeHttpRequests(
+//                        auth -> auth.requestMatchers(HttpMethod.GET, "products").permitAll()
+//                                .requestMatchers(HttpMethod.GET, "products/{$id}").hasAnyRole("ADMIN", "USER")
+//                                .requestMatchers(HttpMethod.PUT, "customers/**").anonymous()//.hasAnyRole("ADMIN", "USER")
+//                                .requestMatchers(HttpMethod.POST, "products/{$id}").hasRole("ADMIN")
+//                                .anyRequest().permitAll()) //.authenticated())
+//                .httpBasic(Customizer.withDefaults());
+////        http.authorizeRequests().anyRequest().permitAll().and().csrf(AbstractHttpConfigurer::disable);
+//
+//        return http.build();
+//
+//    }
 
 }

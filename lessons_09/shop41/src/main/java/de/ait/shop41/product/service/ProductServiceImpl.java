@@ -1,6 +1,7 @@
 package de.ait.shop41.product.service;
 
 import de.ait.shop41.exception_handling.exceptions.ProductNotFoundException;
+import de.ait.shop41.logging.Profiler;
 import de.ait.shop41.product.dto.ProductRequestDTO;
 import de.ait.shop41.product.dto.ProductResponseDTO;
 import de.ait.shop41.product.entity.Product;
@@ -51,6 +52,7 @@ public class ProductServiceImpl implements ProductService{
     }
 
     @Override
+    @Profiler // нами написанная анотация
     public List<ProductResponseDTO> getAllProducts() {
         return ProductResponseDTO.of(repository.findAll());
     }
