@@ -13,6 +13,7 @@ import java.util.Set;
 @Getter
 @EqualsAndHashCode
 public class AuthInfo implements Authentication {
+    // этот объект хранит информацию о нашем пользователе
     private boolean authenticated;
     private String username;
     private Set<Role> roles;
